@@ -179,3 +179,9 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+pacote dowload/pythonProject/.vscode/settings.json
+pacote dowload/pythonProject/.idea/inspectionProfiles/profiles_settings.xml
+pacote dowload/pythonProject/.idea/workspace.xml
+pacote dowload/pythonProject/.idea/misc.xml
+pacote dowload/pythonProject/Desafios/TESTE
+pacote dowload/pythonProject/Desafios/TESTE.py

@@ -1,0 +1,5 @@
+n = str(input('NOme: '))
+i = int(input('Idade: '))
+s = str(input('Sexo: '))
+pessoa = (n, i, s)
+print(pessoa)
