@@ -4,8 +4,7 @@ while resposta == 'S':
     numeros.append(int(input('Digite um numero: ')))
     resposta = input('Deseja continuar?[S/N] ').upper().strip()[0]
 print('-=-' * 30)
-numeros.sort()
-numeros.reverse()
+numeros.sort(reverse = True)
 print(f'Você digitou {len(numeros)} elementos')
 print(f'Os valores em ordem decrescente são {numeros}')
 if 5 in numeros:

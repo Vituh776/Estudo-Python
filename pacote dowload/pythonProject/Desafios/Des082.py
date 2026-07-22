@@ -10,6 +10,7 @@ while resposta == 'S':
     else:
         numeros_impares.append(numero)
     resposta = input('Deseja continuar?[S/N] ').upper().strip()[0]
-print(numeros)
-print(numeros_pares)
-print(numeros_impares)
+print('-=-' * 30)
+print(f'Esses são os numeros q vc digitou: {", ".join(map(str, numeros))}')
+print(f'Esses são os numeros pares q vc digitou: {", ".join(map(str, numeros_pares))}')
+print(f'Esses são os numeros impares q vc digitou: {", ".join(map(str, numeros_impares))}')
